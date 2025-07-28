@@ -3,7 +3,9 @@ import numpy as np
 import dlib
 import time
 from imutils import face_utils
-import winsound  # For optional beep alert on sleep
+import winsound
+
+# download: http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2
 
 # Initialize camera
 cap = cv2.VideoCapture(0)
